@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AuthorComponent } from './author/author.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'authors', component: AuthorComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

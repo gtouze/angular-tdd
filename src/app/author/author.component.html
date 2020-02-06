@@ -1,0 +1,12 @@
+<h2>Retour de l'API :</h2>
+<ul *ngFor="let author of authors">
+  <li>
+    <b>id:</b> {{author.id}}
+  </li>
+  <li>
+    <b>Non de l'auteur:</b>  {{author.attributes.name}}
+  </li>
+  <li>
+    <b>Date de Naissance:</b>  {{author.attributes.date_of_birth}}
+  </li>
+</ul>
